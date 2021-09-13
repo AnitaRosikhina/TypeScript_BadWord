@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="block">
+        <div class="info">
+            <div class="title">
+                Bad words:
+            </div>
+            <div class="bad_word">
+            </div>
+        </div>
+        <div class="input_btn">
+            <input class="form-control input_word" type="text" placeholder="word here...">
+            <button type="button" class="btn btn-warning add">Add</button>
+            <button type="button" class="btn btn-danger reset">Reset</button>
+        </div>
+        <div class="err">
+        Заповніть поле!
+        </div>
+        <textarea class="form-control textarea" id="exampleFormControlTextarea1"></textarea>
+        <div class="err_textarea">
+            Поле пусте.Заповніть його!
+        </div>
+        <button type="button" class="btn btn-success btn_cenzor">Cenzor</button>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
